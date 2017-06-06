@@ -5,11 +5,11 @@ Phase 0 of the project
 
  * let's investigate what's out there and what we could reuse - some of our primary user stories are, roughly:
    * how to install fedora/linux
-   * how to set up my AsciiDoc work environment
+   * how to set up my AsciiDoc work environment - not sure what you mean by this
    * how to update/build/translate this guide - should be in AsciiDoc
 
 Phase 1
- 
+
   * create an AsciiDoc template for user stories. The actual user stories for students include:
     * how to run and use application X
     * how to access email
