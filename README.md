@@ -1,11 +1,13 @@
 # pc_for_beginners_cheatsheet
 AsciiDoc templates for beginner user stories to use personal computers
 
+Some of the cheatsheets shall be for students directly, others should be for course intructors who would like to customize individual user stories but having no prior experience with AsciiDoc.
+
 Phase 0 of the project
 
  * let's investigate what's out there and what we could reuse - some of our primary user stories are, roughly:
    * how to install fedora/linux
-   * how to set up my AsciiDoc work environment - not sure what you mean by this
+   * how to set up my AsciiDoc tool chain
    * how to update/build/translate this guide - should be in AsciiDoc
 
 Phase 1
