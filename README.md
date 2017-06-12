@@ -9,7 +9,7 @@ Phase 0 of the project
    * how to install fedora/linux - 2 main scenarios
      * clean installation
      * dual-boot installation on a machine with an existing OS
-   * how to set up my AsciiDoc tool chain - 2 main sub-tasks
+   * how to set up my AsciiDoc tool chain - 3 main sub-tasks
      * install and setup AsciiDoc-friendly text editor
      * install and setup an AsciiDoc processor, such as AsciiDoctor
      * compose and build a sample file
