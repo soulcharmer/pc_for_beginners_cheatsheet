@@ -6,8 +6,13 @@ Some of the cheatsheets shall be for students directly, others should be for cou
 Phase 0 of the project
 
  * let's investigate what's out there and what we could reuse - some of our primary user stories are, roughly:
-   * how to install fedora/linux
-   * how to set up my AsciiDoc tool chain
+   * how to install fedora/linux - 2 main scenarios
+     * clean installation
+     * dual-boot installation on a machine with an existing OS
+   * how to set up my AsciiDoc tool chain - 2 main sub-tasks
+     * install and setup AsciiDoc-friendly text editor
+     * install and setup an AsciiDoc processor, such as AsciiDoctor
+     * compose and build a sample file
    * how to update/build/translate this guide - should be in AsciiDoc
 
 Phase 1
