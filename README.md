@@ -13,6 +13,8 @@ Phase 0 of the project
      * install and setup AsciiDoc-friendly text editor
      * install and setup an AsciiDoc processor, such as AsciiDoctor
      * compose and build a sample file
+   * how to use Github
+     * sign up, clone, edit, push, report
    * how to update/build/translate this guide - should be in AsciiDoc
 
 Phase 1
