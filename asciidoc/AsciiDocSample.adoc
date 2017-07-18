@@ -1,0 +1,76 @@
+Getting Started with AsciiDoc
+-----------------------------
+This document provides instructions for getting started with using http://www.methods.co.nz/asciidoc/[AsciiDoc^] for creating simple, and easy to follow documentation.
+
+What is AsciiDoc?
+~~~~~~~~~~~~~~~~~
+
+AsciiDoc is a human-readable text document format for writing notes,
+documentation, articles, books, ebooks, slideshows, web pages, man pages and
+blogs, and more. AsciiDoc files can be translated to many formats including
+HTML, PDF, EPUB, and man page.
+
+To learn more, visit the AsciiDoc home page at
+http://www.methods.co.nz/asciidoc/[^].
+
+Using AsciiDocLIVE to Write Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AsciiDocLIVE is a web site that enables you to write AsciiDoc files. It provides a cheat sheet that demonstrates the available formatting, including lists, headings, tables, and font formats.
+
+*Tip:* You can open a second AsciiDocLIVE window so that you can easily view the AsciiDoc mini cheat sheet.
+
+*To write a document using AsciiDocLIVE:*
+
+. Open your web browser to https://asciidoclive.com.
+. Change the name of the file at the top of the *left* pane.
+. Delete all of the content in the *left* pane.
+. Write the documentation using the available AsciiDoc formatting. A preview of the documentation appears in the *right* pane.
+. When done, save the file. The file can be saved to one of the following locations:
+
+* DropBox
+* Google Drive
+* Your local machine
+
++
+In addition, the file can be exported to HTML.
+
++
+*Note:* Every time the file is saved to the local machine, a copy may be made. This depends on the configuration of downloads in your web browser.
+
+Installing and Using AsciiDoctor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To use AsciiDoctor, it must be installed locally.
+
+Installing AsciiDoctor
+^^^^^^^^^^^^^^^^^^^^^^
+
+*Note:* You can install AsciiDoctor on Windows, OS X, and Linux machines. This section describes installation on a Red Hat Enterprise Linux machine.
+
+*To install AsciiDoctor:*
+
+. Install gem.
+
++ 
+-------------------
+$ yum install gem
+-------------------
+
+. Install AsciiDoctor.
+
++
+-------------------
+$ gem install asciidoctor
+-------------------
+
+Building a Sample File
+~~~~~~~~~~~~~~~~~~~~~~
+
+The file can be built as many types of files. This section describes building a file to DocBook 5 format using minimal options. For information on the available AsciiDoctor options, see http://asciidoctor.org/docs/render-documents/.
+
+*To build a sample AsciiDoc file:*
+
+----------------
+$ asciidoctor -b docbook5 file_to_build
+----------------
+
+
