@@ -62,15 +62,23 @@ $ yum install gem
 $ gem install asciidoctor
 -------------------
 
-Building a Sample File
+Rendering a Sample File
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The file can be built as many types of files. This section describes building a file to DocBook 5 format using minimal options. For information on the available AsciiDoctor options, see http://asciidoctor.org/docs/render-documents/.
+The file can be rendered as many types of files. This section describes rendering a file to PDF using minimal options. For information on the available AsciiDoctor options, see http://asciidoctor.org/docs/render-documents/.
 
-*To build a sample AsciiDoc file:*
+Before rendering the first file on your system to PDF, you must install the AsciiDoctor PDF extension.
 
+*To install the AsciiDoctor PDF extension:*
+
+. Browse to https://rubygems.org/gems/asciidoctor-pdf.
+. Click the *INSTALL* link on the right side of the page.
+
+*To render a sample PDF file:*
+
+Run the following command:
 ----------------
-$ asciidoctor -b docbook5 file_to_build
+$ asciidoctor -r asciidoctor-pdf -b pdf <adoc_file_to_render>
 ----------------
 
 
