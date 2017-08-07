@@ -1,0 +1,16 @@
+== Using AsciiDoc and Asciidoctor to create documents.
+
+Unlike working with word processors, that instantly show you the output of the edited document (the WYSIWYG method), using AsciiDoc is different. The typical working process consists of two main parts.
+
+=== Writing AsciiDoc
+
+The content of your document is written in a plain text and some special characters are added to it to define the structure of the document, or to describe specific text elements. When you finish, you save the file with the `.adoc` extension. 
+
+It also works, if you produce a file with any text without specyfing any of the elements. As long as it has the correct extension, it is a valid AsciiDoc document.
+
+You can read about the basic rules in the link:http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writers' Guide]. 
+
+=== Rendering the output
+
+to be continued
+
