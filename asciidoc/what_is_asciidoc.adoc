@@ -4,7 +4,7 @@ AsciiDoc is an alternative method to produce texts with computers. It is a text 
 
 The most important thing is that AsciiDoc is a human readable format. That means that you can read AsciiDoc source file in their raw form without any difficulties. Unlike other formats, you do not need to search for pieces of texts hidden in various tags or directives. Reading and writing AsciiDoc feels very natural. 
 
-If you want to know more on AsciiDoc, you can read link::http://asciidoctor.org/docs/what-is-asciidoc/[this article] on the AsciiDoc's webpage.
+If you want to know more on AsciiDoc, you can read link:http://asciidoctor.org/docs/what-is-asciidoc/[this article].
 
 == What are the reasons to use AsciiDoc?
 
