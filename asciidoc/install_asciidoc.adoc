@@ -1,3 +1,3 @@
-== How do you install AsciiDoc?
+== Installing the AsciiDoc Interpreter, the AsciiDoctor.
 
-You can ... (to be done)
+You can :
