@@ -1,0 +1,15 @@
+== How do you start with AsciiDoc?
+
+To produce documents created in AsciiDoc, you need to create the content and convert it into the final format. 
+
+=== A text editor
+
+For producing AsciiDoc _source files_ (files with AsciiDoc formatted text), you do not need more than just a simple text editor. It can be any editor you like, it only has to be able to produce plain text. Word processors, such as *Libre Office Writer* or *Microsoft Word* are not recommended, because they do not produce plain text by default, and their native formats (*odt*,*docx*) cannot be processed by AsciiDoc tools.
+
+If you do not have any previous experience with plain text editors and you do not know which one to choose, you can try link:https://kate-editor.org/get-it/[Kate] or link:http://atom.io[Atom]. Both *Kate* and *Atom* work on all platforms (Linux, MacOS, Windows) and have many useful features.
+ 
+=== An interpreter
+
+Besides the editor, you also need an _interpreter_ to translate the source files into the final documents in `html`, `pdf`, or `epub`. Although there is still the original Python AsciiDoc interpreter, that defines the AsciiDoc standards, you probably should try its follower, the link:http://asciidoctor.org[AsciiDoctor]. 
+
+*AsciiDoctor* is a newer AsciiDoc interpreter written in Ruby, that enhances the original Python program. It also introduces new features that give you more power and flexibility over your documents.
