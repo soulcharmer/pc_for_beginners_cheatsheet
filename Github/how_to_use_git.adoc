@@ -1,0 +1,63 @@
+
+== Git Basics
+In this section, you will learn basic Git commands. To create empty Git repository in the current directory, run:
+....
+git init
+....
+
+You can specify the directory by using the `<directory>` argument:
+
+....
+git init <directory>
+....
+
+To clone the repository to your computer, run the following command:
+....
+git clone
+....
+// where the `<repo>` argument defines  location of the original repository.
+
+Original repository can be located on the filesystem or on remote machine.
+
+Now you can define the author`s name:
+....
+git config user.name <name>
+....
+The name will be used in all commits in current repository.
+
+After you cloned repository and made some changes, you may want to save these changes to original repository.
+
+To see the changes you have made, type:
+....
+git diff
+....
+If you are satisfied with the changes, save the document. Now all changes are saved in your cloned repository, but not into the original repository.
+
+Type `git status` to see which files have been changed.
+
+Now type `git add <directory>` to add the changes in the directory to the list of the changes, which are going to be commited.
+
+NOTE: Type `git add .` to add all changes you have made.
+
+Now you can again write git status to see which files are ready to be commited.
+
+Type git commit to commit the changes you have made. This will launch your default text editor.
+
+Write the commit message that describes the changes you have made. Your commit message can be several lines long and contain links. However, only the first line will be shown as a preview.
+
+NOTE:  You can write the commit message directly to the command by using the `-m` option. In that case, the command looks similar to following: `git commit -m "<message>"`
+
+To see the list of all commits, type:
+....
+git log
+....
+Now you are ready to publish the changes. Type:
+....
+git push
+....
+This will publish the changes to the original repository.
+
+To ensure your local repository is up to date, type:
+....
+git pull
+....
