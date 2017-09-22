@@ -6,7 +6,7 @@ For our purposes, we will use the AsciiDoctor interpreter.
 
 == Installing AsciiDoctor on Linux.
 
-Various Linux distribution use various package managers to install new packages and programs. Although AsciiDoctor can be installed using the Ruby installation procedure with `gem`, try to use your system's package manager first. This way, you will always automatically install all needed dependencies and you will receive update automatically, if you update your system.
+Various Linux distribution use various package managers to install new packages and programs. Although AsciiDoctor can be installed using the Ruby installation procedure with `gem`, try to use your system's package manager first. This way, you will always automatically install all needed dependencies and you will receive updates automatically, during the update of your system.
 
 === Before you start
 
