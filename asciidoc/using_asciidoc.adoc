@@ -20,9 +20,9 @@ $ asciidoctor my_file.adoc
 
 By default, *AsciiDoctor* will convert the document into HTML5. You can change this behaviour by telling *AsciiDoctor* which output you want to get by adding the `-b` option and the target format to the original command.
 
-----
+====
 $ asciidoctor -b _<target_format>_ my_file.adoc
-----
+====
 
 
 
