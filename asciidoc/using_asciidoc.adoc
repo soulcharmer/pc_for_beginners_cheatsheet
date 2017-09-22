@@ -1,8 +1,8 @@
-== Using AsciiDoc and Asciidoctor to create documents.
+= Using AsciiDoc and AsciiDoctor to create documents.
 
 Unlike working with word processors, that instantly show you the output of the edited document (the WYSIWYG method), using AsciiDoc is different. The typical working process consists of two main parts.
 
-=== Writing AsciiDoc source files
+== Writing AsciiDoc source files
 
 The content of your document consists of one or more files in plain text, to which you add some special characters. These are needed to define the structure of the document and how particular text elements will be rendered in the file document, for example *bold*, _italic_, or `typewritten` text. It is usual to save such a source file with the `adoc` suffix. 
 
@@ -10,7 +10,7 @@ Even if you do not add any special characters to mark individual elements, text 
 
 A comprehensive overview of the AsciiDoc markup is beyond this document. Please, read the basic rules in the link:http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writers' Guide]. 
 
-=== Rendering the output
+== Rendering the output
 
 Once you have some source files ready, you can process the with *AsciiDoctor* and get the final output. Basically, you can choose between several target formats. Converting the source files into the target format is very easy. You only have to run *AsciiDoctor* and point it to the file, that you want to have rendered.
 
@@ -40,7 +40,7 @@ Normally, *AsciiDoctor* will take the source file and create the output file in 
 $ asciidoctor -o /home/user/html/my_html_file.html my_file.adoc
 ---- 
 
-=== Rendering a PDF output
+=== Rendering the PDF output
 
 If you need to create a *pdf* file, you do it the same way, but you have to use a special *AsciiDoctor* command to create the desired output. 
 

@@ -1,14 +1,16 @@
 == What is AsciiDoc?
 
-AsciiDoc is an alternative method to produce texts with computers. It is a text based format that allows you to logically define the structure of the document and you do not have to worry much about the formal look of the output as it is already pre-defined. The principle to use AsciiDoc is similar to html, xml or LaTeX, but AsciiDoc is much more simple.
+AsciiDoc is an alternative way to produce texts with computers. It is a text based format that allows you to logically define the structure of the document and you do not have to worry much about the formal look of the output as it is already pre-defined. The principle to use AsciiDoc is similar to html, xml or LaTeX, but AsciiDoc is much more simple.
 
 The most important thing is that AsciiDoc is a human readable format. That means that you can read AsciiDoc source file in their raw form without any difficulties. Unlike other formats, you do not need to search for pieces of texts hidden in various tags or directives. Reading and writing AsciiDoc feels very natural. 
+
+AsciiDoc is a powerful text tool that you can use if you want to produce texts quickly and easily. It has a pre-defined appearance of the output which serves well the most common purposes and use cases. If you need, you can redefine its standard output to customize it. However, AsciiDoc is not a desktop publishing tool, nor it is a WYSIWYG (What you see is what you get) text processor, although it is able to provide everything that people usually use the text processors for. And with less stress.
 
 If you want to know more on AsciiDoc, you can read link:http://asciidoctor.org/docs/what-is-asciidoc/[this article].
 
 == What are the reasons to use AsciiDoc?
 
-Above all, AsciiDoc uses an easy mark-up and allows you to start quickly with just a few necessary things to learn. You can always learn more later. At the same time, it is very flexible and you can create different output formats, such as html, DocBook, pdf, and epub, from the same AsciiDoc source file. That means that you never need to write the same document twice (or even three times). 
+Above all, AsciiDoc uses an easy mark-up and allows you to start quickly with just a few necessary things to learn. You can always learn more later. At the same time, it is very flexible and you can create different output formats, such as *HTML*, *DocBook*, and *PDF*, from the same AsciiDoc source file. That means that you never need to write the same document twice (or even three times). 
 
 Other reasons why you should consider using AsciiDoc are:
 
@@ -19,12 +21,9 @@ Other reasons why you should consider using AsciiDoc are:
 * People are able to read and understand the source files.
 * You can use various text tools to get more flexibility and functionality, if you want.
 * You can generate the source files programmatically.
+* You can use various means of cooperation, such as *git*, with AsciiDoc.
 * and many others
 
-
-== What can AsciiDoc do?
-
-AsciiDoc is a powerful text tool that you can use if you want to produce texts quickly and easily. It has a pre-defined appearance of the output which serves well the most common purposes and use cases. If you need, you can redefine its standard output to customize it. However, AsciiDoc is not a desktop publishing tool, nor it is a WYSIWYG (What you see is what you get) text processor, although it is able to provide everything that people usually use the text processors for. And with less stress.
 
 
 
