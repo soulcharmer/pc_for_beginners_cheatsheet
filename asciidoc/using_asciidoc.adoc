@@ -20,17 +20,32 @@ $ asciidoctor my_file.adoc
 
 By default, *AsciiDoctor* will convert the document into HTML5. You can change this behaviour by telling *AsciiDoctor* which output you want to get by adding the `-b` option and the target format to the original command.
 
-====
-$ asciidoctor -b _<target_format>_ my_file.adoc
-====
+----
+$ asciidoctor -b <target_format> my_file.adoc
+----
 
+This table shows possible target formats and their command-line aliases.
 
+|===
+| Format | CLI alias
+| HTML (version 5) a| `html` or `html5`
+| DocBook (version 4.5) a| `docbook45`
+| DocBook (version 5) a| `docbook` or `docbook5`
+| Manual Pages a| `manpage` 
+|===
 
-. HTML version 5 (by default)
-. DocBook version 4.5
-. DocBook version 5
-. Manual Pages
-. Portable Document Format (pdf)
+Normally, *AsciiDoctor* will take the source file and create the output file in the same location and under the same name with a different extension. For example, the `my_file.adoc` file that should be rendered into a *html* output becomes the `my_file.html` file in the same directory. To override this behaviour, you can add the `-o` option and specify a different name and location of the output file.
 
-The 
+----
+$ asciidoctor -o /home/user/html/my_html_file.html my_file.adoc
+---- 
 
+=== Rendering a PDF output
+
+If you need to create a *pdf* file, you do it the same way, but you have to use a special *AsciiDoctor* command to create the desired output. 
+
+----
+$ asciidoctor-pdf my_file.adoc
+---- 
+
+This will create a *pdf* file next to the source file.
